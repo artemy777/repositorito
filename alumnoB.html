@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Alumno B</title>
+</head>
+<body>
+
+    <h1>¡Hola! Soy el Alumno B</h1>
+    <h2>Explorando el mundo de la programación</h2>
+
+    <img src="Logo_oficial_de_Universitario.png" alt="Imagen de perfil" width="60">
+
+    <p>Gracias por visitar mi perfil. Por favor, completa el siguiente formulario para compartir un poco sobre ti.</p>
+
+    <form action="alumnoA.html" method="get">
+        <label for="nombre">Tu nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="ciudad">Ciudad donde vives:</label><br>
+        <input type="text" id="ciudad" name="ciudad"><br><br>
+
+        <p>¿Conocías HTML antes de este curso?</p>
+        <input type="radio" id="si" name="html_previo" value="Sí">
+        <label for="si">Sí</label><br>
+        <input type="radio" id="no" name="html_previo" value="No">
+        <label for="no">No</label><br><br>
+
+        <p>¿Qué área te interesa más?</p>
+        <input type="checkbox" id="diseno" name="interes[]" value="Diseño Web">
+        <label for="diseno">Diseño Web</label><br>
+        <input type="checkbox" id="frontend" name="interes[]" value="Front-End">
+        <label for="frontend">Front-End</label><br>
+        <input type="checkbox" id="backend" name="interes[]" value="Back-End">
+        <label for="backend">Back-End</label><br><br>
+
+        <label for="comentario">Cuéntame algo sobre ti:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="40"></textarea><br><br>
+
+        <label for="frecuencia">¿Con qué frecuencia practicas lo aprendido?</label><br>
+        <select id="frecuencia" name="frecuencia">
+            <option value="todos">Todos los días</option>
+            <option value="algunos">Algunos días</option>
+            <option value="poco">Muy poco</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar y ver perfil del Alumno A">
+    </form>
+
+    <p>Alumno B - 2025</p>
+
+</body>
+</html>
